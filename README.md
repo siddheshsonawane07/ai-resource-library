@@ -1,6 +1,6 @@
 # AI Resource Library
 
-129 links for building and designing with AI coding agents: component registries, design galleries, animation and 3D libraries, agent skills and tools. Each one is tagged by what you do with it, so an agent can pick from the list instead of guessing.
+135 links for building and designing with AI coding agents: component registries, design galleries, animation and 3D libraries, agent skills and tools. Each one is tagged by what you do with it, so an agent can pick from the list instead of guessing.
 
 This file is generated from [`library.csv`](skills/resource-library/library.csv). Edit the CSV, not this page.
 
@@ -30,11 +30,11 @@ Pricing is what the site said on the day the link was added; check before you re
 
 - [UI Components](#ui-components) (27)
 - [Design Inspiration](#design-inspiration) (31)
-- [3D, Animation & Shaders](#3d-animation--shaders) (8)
-- [Agent Skills](#agent-skills) (13)
-- [AI & Dev Tools](#ai--dev-tools) (17)
-- [GitHub Repos](#github-repos) (18)
-- [Learning & Articles](#learning--articles) (3)
+- [3D, Animation & Shaders](#3d-animation--shaders) (10)
+- [Agent Skills](#agent-skills) (14)
+- [AI & Dev Tools](#ai--dev-tools) (18)
+- [GitHub Repos](#github-repos) (19)
+- [Learning & Articles](#learning--articles) (4)
 - [Showcases & Portfolios](#showcases--portfolios) (12)
 
 ## UI Components
@@ -48,10 +48,10 @@ Pricing is what the site said on the day the link was added; check before you re
 | [FeralUI](https://feralui.dev/) | Playful, physics-driven React elements | `copy-code` | free | No pricing or licence stated |
 | [Glass components](https://glass.samasante.com) | Headless React lens for Apple-style Liquid Glass on the web | `library` | free | No pricing found on the site |
 | [Gradient Buttons](https://gradientbuttons.colorion.co/) | Hundreds of CSS gradient buttons with one-click copy | `copy-code` | free | One-click copy; licence not stated |
-| [Kinetics](https://kinetics.colorion.co) | 150+ motion effects with React code and prompts | `copy-code` | free | No paywall; public GitHub repo |
+| ★ [Kinetics](https://kinetics.colorion.co) | 150+ motion effects with React code and prompts | `copy-code` | free | No paywall; public GitHub repo |
 | [Magic UI](https://magicui.design) | 150+ animated components and effects | `copy-code` | open-source | MIT licence |
 | [mapcn](https://www.mapcn.dev/) | Customisable React map components on MapLibre GL + Tailwind | `copy-code` | open-source |  |
-| [Microkit](https://microkit.co) | Micro-interactions | `copy-code` | open-source | MIT licence |
+| ★ [Microkit](https://microkit.co) | Micro-interactions | `copy-code` | open-source | MIT licence |
 | [Motion Primitives](https://motion-primitives.com) | Advanced interaction components | `copy-code` | open-source | MIT licence |
 | [Nexvyn UI](https://ui.nexvyn.dev/) | Accessible, animated React components (TypeScript + Tailwind) for design engineers | `copy-code` | free | Described as free; no paid tier |
 | [Obsidian UI](https://www.obsidianui.dev/) | React + Tailwind components, blocks and landing templates | `copy-code` | open-source | MIT licence |
@@ -111,7 +111,9 @@ Pricing is what the site said on the day the link was added; check before you re
 |---|---|---|---|---|
 | [Anime.js](https://animejs.com) | Lightweight JavaScript animation engine | `library` | open-source |  |
 | [Motion](https://motion.dev/) | Animation library for React, JavaScript and Vue (formerly Framer Motion) | `library` | open-source | MIT licence; optional one-time Motion+ add-on for premium examples |
+| [Scenario for Blender](https://blender.scenario.com/) | Blender extension (5.0+) that brings Scenario's generation models into the viewport: generate images, video, 3D models, PBR materials, audio and 360° environments, retexture/remesh/rig existing meshes, and connect local AI agents over an MCP server | `tool` | paid | Add-on code is free (GPL-3.0) but needs a Scenario API key; the Free plan cannot use the API. Paid plans from Starter ($15/month); generation uses that plan's credits |
 | [Shadertoy](https://shadertoy.com) | Online shader editor and community | `reference` | free |  |
+| [StableGen](https://github.com/sakalond/StableGen) | Blender add-on that textures meshes and scenes with diffusion models and generates meshes from a prompt or image (TRELLIS.2), auto-rigs them (SkinTokens), bakes PBR maps and exports glTF/FBX; runs models on a ComfyUI server | `tool` | open-source | Add-on GPL-3.0. Blender 4.2-4.5 or 5.1+ (not 5.0). SDXL texturing about 8 GB VRAM; Qwen Image 16 GB+ and non-commercial (Qwen Research License); Bria FIBO CC BY-NC. Mesh generation (TRELLIS.2) needs an NVIDIA GPU with 24 GB+ and rigging (SkinTokens) 14 GB+, so not Apple Silicon. 10-50+ GB of models |
 | [The Book of Shaders](https://thebookofshaders.com) | Free interactive intro to fragment shaders | `reference` | free |  |
 | [Three.js](https://threejs.org) | The most popular web 3D library | `library` | open-source |  |
 | [Three.js Fire Pro](https://dgreenheck.github.io/threejs-fire-pro/) | Three.js fire effect demo by Dan Greenheck | `reference` | free |  |
@@ -132,6 +134,7 @@ Pricing is what the site said on the day the link was added; check before you re
 | [design-review (Superfuture)](https://www.ui-skills.com/skills/superfuture/design-review) | Skill for reviewing and critiquing UI designs | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
 | [emil-design-eng (Emil Kowalski)](https://www.skills.sh/emilkowalski/skills/emil-design-eng) | Skill encoding Emil Kowalski's approach to UI polish, component design and animation decisions | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
 | [frontend-design (Anthropic)](https://www.ui-skills.com/skills/anthropics/frontend-design) | Anthropic's skill for distinctive, non-generic frontend design | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
+| [howseen-ai/claude-motion-design](https://github.com/howseen-ai/claude-motion-design) | Claude Code skill for motion videos as one seek(t) HTML file: beat map, four approved stills, Playwright render, tmix motion blur, pop scan, -14 LUFS audio | `install-skill` | open-source | MIT licence; fetched media keeps its own licences (Mixkit; Pexels; Unsplash) |
 | [interaction-design (wshobson)](https://www.ui-skills.com/skills/wshobson/interaction-design) | Skill for interaction and micro-interaction design | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
 | [Remotion AI skills](https://www.remotion.dev/docs/ai/skills) | Official Remotion skills for making React-based videos with coding agents | `install-skill` | free | Remotion needs a company licence for larger teams; check its licence page for commercial use |
 | [shadcn (shadcn-ui)](https://www.ui-skills.com/skills/shadcn-ui/shadcn) | Official skill for building with shadcn/ui components | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
@@ -150,7 +153,8 @@ Pricing is what the site said on the day the link was added; check before you re
 | [Koyal](https://koyal.ai) | Agentic AI filmmaking platform | `tool` | freemium | Free: 45-second watermarked videos; Creator $29/month, Pro $79/month |
 | [Lovable](https://lovable.dev) | In-browser AI app builder | `tool` | freemium | Credit-based; free credits limited |
 | [Prompt Motion](https://www.prompt-motion.com/) | Gallery of motion videos made with Claude, with the prompts and skills used | `reference` | free | No pricing or paywall found |
-| [Scenario](https://www.scenario.com/) | AI platform for generating game and creative assets: image, video, 3D and audio | `tool` | freemium | 50 free daily credits; paid plans $10-$50/month |
+| [Remotion](https://www.remotion.dev/) | Make videos programmatically with React: compositions, parameterized rendering, Studio, Player and Lambda | `library` | freemium | Free for individuals and companies of up to 3 people; otherwise a Company License: $25/month per seat (Creators) or $0.01 per render with a $100/month minimum (Automators), per remotion.pro on 2026-11-02 |
+| [Scenario](https://www.scenario.com/) | AI platform for generating game and creative assets: image, video, 3D and audio | `tool` | freemium | 50 free daily credits (no API access); paid plans $15-$75/month (Starter/Pro/Max); annual billing saves 33% |
 | [Scrolltide](https://scrolltide.co) | Library of 300+ complete website prompts with source code, for Claude Code, Cursor or v0 | `copy-code` | freemium | Free templates section; most templates premium ($299 lifetime) |
 | [Slopforge](https://solarfren69420.github.io/Slopforge/?platform=macOS) | Community directory of game revivals, open-source tools and compatibility layers | `reference` | open-source | Source on GitHub; listed projects have their own licences |
 | [Tapetide MCP](https://tapetide.com/mcp) | MCP server giving AI apps data on ~8,200 NSE/BSE stocks | `tool` | freemium | Free: 50 tool calls/day, 1,000/month; paid for more |
@@ -171,6 +175,7 @@ Pricing is what the site said on the day the link was added; check before you re
 | [google/ax](https://github.com/google/ax) | Google's open agentic orchestration runtime | `library` | open-source | Apache-2.0 licence |
 | [guanmo-ai/awesome-ai-motion](https://github.com/guanmo-ai/awesome-ai-motion) | Catalogue of 32 AI motion/video cases with authors, source posts and prompts | `reference` | open-source |  |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | HyperFrames framework repo: HTML + GSAP video rendering for agents | `library` | open-source |  |
+| [hoodini/motion-in-code](https://github.com/hoodini/motion-in-code) | Motion in Code kit: closed-form spring engine, 24 building blocks with prompts, a prompt template, three films and a QA pop detector | `reference` | open-source | Public repo but no licence file found; credits the method to @twoclipping |
 | [JohnHeibel/ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase) | Starter kit for hand-painted cartoon animation with Claude (p5.js, p5.brush) | `copy-code` | open-source | MIT licence |
 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) | Code-rendered music video made with Opus, showing the parallel-subagent pattern | `reference` | open-source |  |
 | [kargulstudio/kanban](https://github.com/kargulstudio/kanban) | Kanban board project | `reference` | open-source | No licence stated |
@@ -188,6 +193,7 @@ Pricing is what the site said on the day the link was added; check before you re
 | [Co-Creating Code (FITT IIT Delhi)](https://www.youtube.com/live/xLl9V6pdEgg) | Livestream from FITT IIT Delhi; content not summarised | `reference` | free |  |
 | [Connection reuse and request routing](https://www.bhupeshkumar.blog/blogs/how-connection-reuse-can-quietly-decide-where-requests-go) | Blog post on how HTTP connection reuse affects load balancing | `reference` | free |  |
 | [Deep-ML](https://www.deep-ml.com/) | ML/deep learning coding practice problems | `reference` | free | Site says all problems are free |
+| [Motion in Code (YUV.AI)](https://yuv.ai/motion) | Deep dive on the seek(t) to Playwright to ffmpeg launch-video method: closed-form springs, beat sync, motion blur and QA | `reference` | free |  |
 
 ## Showcases & Portfolios
 
