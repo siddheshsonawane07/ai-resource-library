@@ -1,6 +1,6 @@
 # AI Resource Library
 
-135 links for building and designing with AI coding agents: component registries, design galleries, animation and 3D libraries, agent skills and tools. Each one is tagged by what you do with it, so an agent can pick from the list instead of guessing.
+141 links for building and designing with AI coding agents: component registries, design galleries, animation and 3D libraries, agent skills and tools. Each one is tagged by what you do with it, so an agent can pick from the list instead of guessing.
 
 This file is generated from [`library.csv`](skills/resource-library/library.csv). Edit the CSV, not this page.
 
@@ -31,10 +31,10 @@ Pricing is what the site said on the day the link was added; check before you re
 - [UI Components](#ui-components) (27)
 - [Design Inspiration](#design-inspiration) (31)
 - [3D, Animation & Shaders](#3d-animation--shaders) (10)
-- [Agent Skills](#agent-skills) (14)
-- [AI & Dev Tools](#ai--dev-tools) (18)
-- [GitHub Repos](#github-repos) (19)
-- [Learning & Articles](#learning--articles) (4)
+- [Agent Skills](#agent-skills) (16)
+- [AI & Dev Tools](#ai--dev-tools) (19)
+- [GitHub Repos](#github-repos) (20)
+- [Learning & Articles](#learning--articles) (6)
 - [Showcases & Portfolios](#showcases--portfolios) (12)
 
 ## UI Components
@@ -134,10 +134,12 @@ Pricing is what the site said on the day the link was added; check before you re
 | [design-review (Superfuture)](https://www.ui-skills.com/skills/superfuture/design-review) | Skill for reviewing and critiquing UI designs | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
 | [emil-design-eng (Emil Kowalski)](https://www.skills.sh/emilkowalski/skills/emil-design-eng) | Skill encoding Emil Kowalski's approach to UI polish, component design and animation decisions | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
 | [frontend-design (Anthropic)](https://www.ui-skills.com/skills/anthropics/frontend-design) | Anthropic's skill for distinctive, non-generic frontend design | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
+| [gokayfem/video-to-blender](https://github.com/gokayfem/video-to-blender) | Skill (procedural-blender-nodes) that turns a reference video, image or idea into an editable procedural Blender node system: Geometry Nodes, Shader Nodes and compositor graphs built from Python via nodekit, with a tested 39-group node library, templates and validation scripts | `install-skill` | open-source | MIT licence. Needs Blender 5.2+. Installs as a Claude Code plugin, via npx skills, or by copying the skill folder |
 | [howseen-ai/claude-motion-design](https://github.com/howseen-ai/claude-motion-design) | Claude Code skill for motion videos as one seek(t) HTML file: beat map, four approved stills, Playwright render, tmix motion blur, pop scan, -14 LUFS audio | `install-skill` | open-source | MIT licence; fetched media keeps its own licences (Mixkit; Pexels; Unsplash) |
 | [interaction-design (wshobson)](https://www.ui-skills.com/skills/wshobson/interaction-design) | Skill for interaction and micro-interaction design | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
 | [Remotion AI skills](https://www.remotion.dev/docs/ai/skills) | Official Remotion skills for making React-based videos with coding agents | `install-skill` | free | Remotion needs a company licence for larger teams; check its licence page for commercial use |
 | [shadcn (shadcn-ui)](https://www.ui-skills.com/skills/shadcn-ui/shadcn) | Official skill for building with shadcn/ui components | `install-skill` | open-source | Free; installs from a public GitHub repo via one command |
+| [Unreal Engine Skills for Claude Code](https://github.com/epicgames/unreal-engine-skills-for-claude-code-plugin) | Epic's Claude Code plugin for controlling the running Unreal Editor over its MCP server: an unreal-mcp skill, a SessionStart hook that detects Unreal projects, and safety rules for bulk changes | `install-skill` | open-source | MIT licence. Needs UE 5.8+ with the ModelContextProtocol and AllToolsets plugins and bash on PATH; install with /plugin install unreal-engine-skills-for-claude-code@claude-plugins-official. Includes a tool that runs arbitrary Python in the editor |
 
 ## AI & Dev Tools
 
@@ -152,6 +154,7 @@ Pricing is what the site said on the day the link was added; check before you re
 | [Jiro](https://jiro.build/) | Library of 1,272+ design prompt templates and components for AI vibe-coding tools | `copy-code` | freemium | Free plan with some templates; Pro is a one-time payment |
 | [Koyal](https://koyal.ai) | Agentic AI filmmaking platform | `tool` | freemium | Free: 45-second watermarked videos; Creator $29/month, Pro $79/month |
 | [Lovable](https://lovable.dev) | In-browser AI app builder | `tool` | freemium | Credit-based; free credits limited |
+| [Plane](https://github.com/makeplane/plane) | Open-source Jira/Linear alternative: work items, cycles (sprints) with burn-down, modules, views, pages and analytics; cloud or self-hosted with Docker or Kubernetes | `tool` | freemium | AGPL-3.0. Cloud Free up to 12 users; Pro $6/user/month annual ($8 monthly), Business $13 ($15); integrations, wiki, time tracking and templates are paid. Prices from plane.so/pricing on 2026-11-02 |
 | [Prompt Motion](https://www.prompt-motion.com/) | Gallery of motion videos made with Claude, with the prompts and skills used | `reference` | free | No pricing or paywall found |
 | [Remotion](https://www.remotion.dev/) | Make videos programmatically with React: compositions, parameterized rendering, Studio, Player and Lambda | `library` | freemium | Free for individuals and companies of up to 3 people; otherwise a Company License: $25/month per seat (Creators) or $0.01 per render with a $100/month minimum (Automators), per remotion.pro on 2026-11-02 |
 | [Scenario](https://www.scenario.com/) | AI platform for generating game and creative assets: image, video, 3D and audio | `tool` | freemium | 50 free daily credits (no API access); paid plans $15-$75/month (Starter/Pro/Max); annual billing saves 33% |
@@ -175,6 +178,7 @@ Pricing is what the site said on the day the link was added; check before you re
 | [google/ax](https://github.com/google/ax) | Google's open agentic orchestration runtime | `library` | open-source | Apache-2.0 licence |
 | [guanmo-ai/awesome-ai-motion](https://github.com/guanmo-ai/awesome-ai-motion) | Catalogue of 32 AI motion/video cases with authors, source posts and prompts | `reference` | open-source |  |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | HyperFrames framework repo: HTML + GSAP video rendering for agents | `library` | open-source |  |
+| [hi3d-official/Hi3Dv1.0](https://github.com/hi3d-official/Hi3Dv1.0) | Open-weights Hi3D v1.0 (Sparc3D line): refines a coarse mesh into detailed geometry at up to 1536 resolution, guided by a reference image; geometry only, no textures | `tool` | open-source | Hi3D Open License 1.0 (custom, not OSI): commercial use allowed with a 'Powered by Hi3D 1.0' credit; separate licence needed above 200k MAU or $1M monthly revenue. Linux + NVIDIA (compute 8.0+, CUDA 12.0-12.5) only; 1536 validated only on a 96 GB H20. Online demo: https://huggingface.co/spaces/ilcve21/Sparc3D |
 | [hoodini/motion-in-code](https://github.com/hoodini/motion-in-code) | Motion in Code kit: closed-form spring engine, 24 building blocks with prompts, a prompt template, three films and a QA pop detector | `reference` | open-source | Public repo but no licence file found; credits the method to @twoclipping |
 | [JohnHeibel/ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase) | Starter kit for hand-painted cartoon animation with Claude (p5.js, p5.brush) | `copy-code` | open-source | MIT licence |
 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) | Code-rendered music video made with Opus, showing the parallel-subagent pattern | `reference` | open-source |  |
@@ -194,6 +198,8 @@ Pricing is what the site said on the day the link was added; check before you re
 | [Connection reuse and request routing](https://www.bhupeshkumar.blog/blogs/how-connection-reuse-can-quietly-decide-where-requests-go) | Blog post on how HTTP connection reuse affects load balancing | `reference` | free |  |
 | [Deep-ML](https://www.deep-ml.com/) | ML/deep learning coding practice problems | `reference` | free | Site says all problems are free |
 | [Motion in Code (YUV.AI)](https://yuv.ai/motion) | Deep dive on the seek(t) to Playwright to ffmpeg launch-video method: closed-form springs, beat sync, motion blur and QA | `reference` | free |  |
+| [Unreal Engine MCP Hands-On (Puget Systems)](https://www.pugetsystems.com/blog/2026/07/09/unreal-engine-mcp-hands-on-testing-ai-inside-the-editor/) | Hands-on test of Claude driving UE 5.8 through MCP: a greybox level and a room-lighting Blueprint worked, while a controls change and a procedural PCG city failed | `reference` | free | Tested with Opus 4.8 in July 2026 |
+| [Unreal MCP in Unreal Editor (Epic docs)](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-mcp-in-unreal-editor) | Epic's guide to UE 5.8's experimental MCP server: enabling Unreal MCP and All Toolsets, starting the server, generating .mcp.json for Claude Code and other clients, serial tool calls and security | `reference` | free | Experimental; no authentication and loopback-only |
 
 ## Showcases & Portfolios
 
